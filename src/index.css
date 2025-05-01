@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #1e40af;
+  --color-primary-hover: #2648b7;
+  --color-secondary: #f9fafb;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Cambria, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
