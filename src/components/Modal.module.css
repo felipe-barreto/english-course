@@ -1,0 +1,59 @@
+.backdrop {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100dvw;
+  height: 100dvh;
+  z-index: 1;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  min-height: min(20rem, 60%);
+  max-height: 90%;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  overflow: auto;
+  padding: 0.5rem;
+}
+
+.title {
+  margin-top: auto; /* The element was centered using margin auto
+  instead of setting justify-content: center on the modal
+  to prevent overflow when zoomed in */
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: clamp(1.7rem, 1.52rem + 0.96vw, 2rem);
+  color: var(--color-primary);
+  text-align: center;
+  text-wrap: balance;
+}
+
+.paragraph {
+  margin: 1rem;
+  font-size: clamp(1rem, 0.94rem + 0.32vw, 1.1rem);
+  text-align: center;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding: 12px 24px;
+  color: var(--color-secondary);
+  background-color: #c01313;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 3px 0 var(--color-secondary);
+  transition: transform 0.2s;
+}
+
+.button:hover {
+  background-color: #d02323;
+  box-shadow: 0 0 5px 0 #000;
+  transform: scale(1.03);
+}

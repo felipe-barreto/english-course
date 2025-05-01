@@ -1,5 +1,12 @@
+import Hero from "./components/Hero";
+import styles from "./App.module.css";
+
 const App = () => {
-  return <h1>English course</h1>;
+  return (
+    <main className={styles.container}>
+      <Hero />
+    </main>
+  );
 };
 
 export default App;

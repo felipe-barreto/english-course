@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100dvh;
+  background-image: url(../assets/HeroImage.png);
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+
+.title {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: clamp(2.4rem, 2.266rem + 0.61vw, 3rem);
+  color: var(--color-secondary);
+  text-align: center;
+  text-wrap: balance;
+  animation: heroFadeIn 1s ease-out forwards;
+}
+
+.letter {
+  color: var(--color-primary);
+  text-shadow: 0 0 3px var(--color-secondary);
+}
+
+.paragraph {
+  width: clamp(min(48rem, 50%), 30rem, 95%);
+  margin: 1rem auto; /* The element was centered using margin auto
+  instead of setting align-items: center on the container
+  to prevent overflow on small screens when zoomed in */
+  font-size: clamp(1rem, 0.978rem + 0.1vw, 1.1rem);
+  color: var(--color-secondary);
+  text-align: center;
+  animation: heroFadeIn 1s ease-out forwards;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  padding: 12px 24px;
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 3px 0 var(--color-secondary);
+  animation: heroFadeIn 1s ease-out forwards;
+  transition: transform 0.2s;
+}
+
+.button:hover {
+  background-color: var(--color-primary-hover);
+  box-shadow: 0 0 5px 0 var(--color-secondary);
+  transform: scale(1.03);
+}
+
+@keyframes heroFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
