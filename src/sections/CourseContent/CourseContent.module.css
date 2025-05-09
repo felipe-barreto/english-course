@@ -1,0 +1,30 @@
+.background {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-secondary);
+  margin-top: clamp(2rem, 10dvh, 6rem);
+  margin-bottom: clamp(2rem, 10dvh, 6rem);
+}
+
+.container {
+  padding: clamp(1rem, 5vw, 6rem);
+  width: clamp(min(42rem, 40%), 40rem, 90%);
+  background-color: #e0e7ff;
+  border-radius: 50px;
+  box-shadow: 0 0 25px #0007;
+  overflow: auto;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  font-size: clamp(1.7rem, 1.568rem + 0.53vw, 2.2rem);
+  color: var(--color-primary);
+  text-align: center;
+  text-wrap: balance;
+}
+
+.paragraph {
+  margin-top: 1rem;
+  font-size: clamp(1rem, 0.978rem + 0.1vw, 1.1rem);
+  color: #1f2937;
+}
