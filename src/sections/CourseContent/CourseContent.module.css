@@ -1,9 +1,9 @@
 .background {
   display: flex;
   justify-content: center;
-  background-color: var(--color-secondary);
-  margin-top: clamp(2rem, 10dvh, 6rem);
-  margin-bottom: clamp(2rem, 10dvh, 6rem);
+  background-color: var(--color-background-light);
+  padding-top: clamp(2rem, 10dvh, 6rem);
+  padding-bottom: clamp(2rem, 10dvh, 6rem);
 }
 
 .container {
@@ -18,7 +18,7 @@
 .title {
   margin-bottom: 1.5rem;
   font-size: clamp(1.7rem, 1.568rem + 0.53vw, 2.2rem);
-  color: var(--color-primary);
+  color: var(--color-accent);
   text-align: center;
   text-wrap: balance;
 }
@@ -26,5 +26,5 @@
 .paragraph {
   margin-top: 1rem;
   font-size: clamp(1rem, 0.978rem + 0.1vw, 1.1rem);
-  color: #1f2937;
+  color: var(--color-text-dark);
 }

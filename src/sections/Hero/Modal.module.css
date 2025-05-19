@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100dvw;
+  width: 100vw;
   height: 100dvh;
   z-index: 1;
 }
@@ -27,7 +27,7 @@
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: clamp(1.7rem, 1.52rem + 0.96vw, 2rem);
-  color: var(--color-primary);
+  color: var(--color-accent);
   text-align: center;
   text-wrap: balance;
 }
@@ -35,6 +35,7 @@
 .paragraph {
   margin: 1rem;
   font-size: clamp(1rem, 0.94rem + 0.32vw, 1.1rem);
+  color: var(--color-text-dark);
   text-align: center;
 }
 
@@ -43,17 +44,17 @@
   margin-right: auto;
   margin-bottom: auto;
   padding: 12px 24px;
-  color: var(--color-secondary);
+  color: var(--color-text-light);
   background-color: #c01313;
   font-weight: 600;
   border-radius: 12px;
   cursor: pointer;
-  box-shadow: 0 0 3px 0 var(--color-secondary);
+  box-shadow: 0 0 3px #f9fafb;
   transition: transform 0.2s;
 }
 
 .button:hover {
   background-color: #d02323;
-  box-shadow: 0 0 5px 0 #000;
+  box-shadow: 0 0 5px #000;
   transform: scale(1.03);
 }

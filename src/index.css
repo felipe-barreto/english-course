@@ -1,7 +1,8 @@
 :root {
-  --color-primary: #1e40af;
-  --color-primary-hover: #2648b7;
-  --color-secondary: #f9fafb;
+  --color-accent: #1e40af;
+  --color-text-light: #f9fafb;
+  --color-background-light: #f9fafb;
+  --color-text-dark: #1f2937;
   box-sizing: border-box;
   font-size: 20px;
   font-family: Cambria, serif;
