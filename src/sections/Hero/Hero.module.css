@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100dvh;
-  background-image: url(../../assets/HeroImage.png);
+  background-image: url(../../assets/hero-background.png);
   background-size: cover;
   background-position: center;
   overflow: auto;
