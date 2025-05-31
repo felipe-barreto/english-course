@@ -1,0 +1,23 @@
+.background {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background-light);
+  padding-bottom: clamp(2rem, 10dvh, 6rem);
+  overflow: auto;
+}
+
+.title {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: clamp(1.7rem, 1.568rem + 0.53vw, 2.2rem);
+  color: var(--color-accent);
+  text-align: center;
+}
+
+.container {
+  width: 35rem;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
