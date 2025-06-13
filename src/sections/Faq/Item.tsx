@@ -14,7 +14,7 @@ const Item = ({ question, answer }: ItemProps) => {
 
   return (
     <>
-      <div className={styles.container} onClick={() => setIsOpen((prevIsOpen) => !prevIsOpen)}>
+      <button className={styles.container} onClick={() => setIsOpen((prevIsOpen) => !prevIsOpen)}>
         <h3 className={styles.question}>{question}</h3>
         <span>
           {isOpen ? (
@@ -23,7 +23,7 @@ const Item = ({ question, answer }: ItemProps) => {
             <img src={downArrow} alt="Flecha para abajo" className={styles.icon} />
           )}
         </span>
-      </div>
+      </button>
       <AnimatePresence>
         {isOpen && (
           <motion.div
