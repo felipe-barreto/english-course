@@ -2,7 +2,9 @@
 
 Esta es una landing page responsive creada para promocionar un curso de inglés, desarrollada como proyecto de portafolio.
 
-Para su construcción se utilizaron las siguientes herramientas y tecnologías:
+<br>
+
+## Para su construcción se utilizaron las siguientes herramientas y tecnologías:
 
 - React con TypeScript.
 
@@ -15,3 +17,15 @@ Para su construcción se utilizaron las siguientes herramientas y tecnologías:
 - Git para control de versiones.
 
 - GitHub para alojamiento del repositorio.
+
+<br>
+
+## Instalación
+
+git clone https://github.com/felipe-barreto/english-course
+
+cd english-course
+
+npm i
+
+npm run dev
