@@ -11,7 +11,7 @@ export const faqData = [
   {
     question: "¿Puedo pausar o repetir las unidades?",
     answer:
-      "Sí, tienes acceso ilimitado a todo el contenido para revisar tantas veces como quieras.",
+      "Sí, tenés acceso ilimitado a todo el contenido para revisar tantas veces como quieras.",
   },
   {
     question: "¿Cómo se evalúa mi progreso?",
@@ -23,7 +23,7 @@ export const faqData = [
   },
   {
     question: "¿Hay fecha límite para completar el curso?",
-    answer: "No, estudias a tu ritmo: tú decides cuándo empezar y terminar.",
+    answer: "No, estudiás a tu ritmo: vos decidís cuándo empezar y terminar.",
   },
   {
     question: "¿Puedo obtener una factura o comprobante de pago?",
@@ -41,6 +41,6 @@ export const faqData = [
   {
     question: "¿Puedo cambiar de plan o cancelar mi inscripción?",
     answer:
-      "Tienes 15 días de garantía para solicitar reembolso completo; luego puedes modificar tu plan sin costo adicional en cada ciclo.",
+      "Tenés 15 días de garantía para solicitar reembolso completo; después podés modificar tu plan sin costo adicional en cada ciclo.",
   },
 ];
