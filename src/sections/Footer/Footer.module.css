@@ -2,10 +2,12 @@
   background-color: var(--color-accent);
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  overflow: auto;
+  overflow-x: auto;
 }
 
 .text {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   color: var(--color-text-light);
   text-align: center;
   text-wrap: balance;
