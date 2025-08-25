@@ -1,9 +1,9 @@
-import reason1 from "../../assets/reason1.png";
-import reason2 from "../../assets/reason2.png";
-import reason3 from "../../assets/reason3.png";
-import reason4 from "../../assets/reason4.png";
-import reason5 from "../../assets/reason5.png";
-import reason6 from "../../assets/reason6.png";
+import reason1 from "../../assets/reason1.jpg";
+import reason2 from "../../assets/reason2.jpg";
+import reason3 from "../../assets/reason3.jpg";
+import reason4 from "../../assets/reason4.jpg";
+import reason5 from "../../assets/reason5.jpg";
+import reason6 from "../../assets/reason6.jpg";
 
 export const reasonsData = [
   {
