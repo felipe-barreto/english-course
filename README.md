@@ -1,6 +1,6 @@
 # Landing page - Curso de inglés
 
-Esta es una landing page responsive creada para promocionar un curso de inglés, desarrollada como proyecto de portafolio.
+Landing page responsive creada para promocionar un curso de inglés, desarrollada como proyecto de portafolio.
 
 <br>
 
