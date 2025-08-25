@@ -1,8 +1,6 @@
 .container {
   background-color: var(--color-background-light);
   padding-bottom: clamp(2rem, 10dvh, 6rem);
-  overflow-x: auto;
-  overflow-y: hidden;
 }
 
 .title {
